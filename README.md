@@ -1,4 +1,4 @@
-# 🤖Generate Advice Challenge
+# 🤖Generate Advice Challenge FrontendMentor
 
 **Link demo:** https://raul-tc.github.io/advice-generator-app/
 
