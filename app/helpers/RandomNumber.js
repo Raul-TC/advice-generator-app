@@ -15,13 +15,11 @@ export async function RandomNumber() {
     await fetchRequest({
       url: `https://api.adviceslip.com/advice/${random}`,
       cbSuccess: (advice) => {
-        console.info(advice);
         document.querySelector(".containerInfo").innerHTML = null;
         document.querySelector(
           ".containerInfo"
         ).innerHTML = `    <h1>ADVICE #${advice.slip.id}</h1>
     <p>"${advice.slip.advice}"</p>`;
-        //   document.querySelector(".containerInfo").appendChild(Card(advice));
       },
     });
   });

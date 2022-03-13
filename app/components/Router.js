@@ -19,4 +19,5 @@ export async function Router() {
   } else {
     $main.innerHTML = "Holi";
   }
+  // document.querySelector(".loader").style.display = "none";
 }

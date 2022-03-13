@@ -9,6 +9,6 @@ export async function fetchRequest(props) {
       document.querySelector(".containerInfo").innerHTML = `<div class="error">
       <p>Error ${err.status} : ${message} </p>
       </div>`;
-      //  document.querySelector(".loader").style.display = "none";
+      document.querySelector(".loader").style.display = "none";
     });
 }

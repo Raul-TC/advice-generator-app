@@ -1,3 +1,9 @@
-# Generate Advice Challenge
+# 🤖Generate Advice Challenge
 
-Frontend Mentor Challenge Advice Generator App
+**Link demo:** https://raul-tc.github.io/advice-generator-app/
+
+---
+
+###
+
+**technology used:** JavaScript / HTML / CSS / API / LOCAL STORAGE
