@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayisBlue: hsl(217, 19%, 24%);
+  --DarkBlue: hsl(218, 23%, 16%);
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+  background-color: var(--DarkBlue);
+}
+html {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+}
+img {
+  max-width: 100%;
+}
+#main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 30%;
+  background-color: var(--DarkGrayisBlue);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 2.5rem 1rem;
+}
+.containerInfo h1 {
+  color: var(--LightCyan);
+  font-size: 0.7rem;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  color: var(--NeonGreen);
+  margin-bottom: 1.5rem;
+  font-stretch: narrower;
+}
+.containerInfo p {
+  color: var(--LightCyan);
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+.pattern {
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+.dice {
+  position: absolute;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+  bottom: -2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--NeonGreen);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dice img {
+  display: block;
+  width: 50%;
+}
+
+.animation {
+  transform: scale(1.1);
+  transition: scale 0.8s ease;
+}
+
+@media screen and (max-width: 428px) {
+  .card {
+    width: 90%;
+    padding-bottom: 4rem;
+  }
+}

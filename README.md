@@ -1,2 +1,3 @@
-# raul-tc-advice-generator-app.github.io
+# Generate Advice Challenge
+
 Frontend Mentor Challenge Advice Generator App
