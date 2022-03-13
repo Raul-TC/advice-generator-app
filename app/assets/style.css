@@ -75,7 +75,11 @@ img {
 
 .dice img {
   display: block;
-  width: 50%;
+  width: 40%;
+}
+
+.dice:hover {
+  box-shadow: 0 0 15px hsl(150, 100%, 66%);
 }
 
 .animation {
