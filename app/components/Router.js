@@ -12,12 +12,10 @@ export async function Router() {
     await fetchRequest({
       url: `https://api.adviceslip.com/advice/${random}`,
       cbSuccess: (advice) => {
-        console.info(advice);
         document.querySelector(".containerInfo").innerHTML = Generate(advice);
       },
     });
   } else {
     $main.innerHTML = "Holi";
   }
-  // document.querySelector(".loader").style.display = "none";
 }

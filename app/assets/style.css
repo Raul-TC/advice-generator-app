@@ -48,7 +48,7 @@ img {
   margin-bottom: 1.5rem;
   font-stretch: narrower;
 }
-.containerInfo p {
+.containerInfo blockquote {
   color: var(--LightCyan);
   font-size: 28px;
   text-align: center;

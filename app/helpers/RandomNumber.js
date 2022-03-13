@@ -17,7 +17,7 @@ export async function RandomNumber() {
           document.querySelector(
             ".containerInfo"
           ).innerHTML = `    <h1>ADVICE #${advice.slip.id}</h1>
-      <p>"${advice.slip.advice}"</p>`;
+      <blockquote>"${advice.slip.advice}"</blockquote>`;
         },
       });
     }
