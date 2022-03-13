@@ -7,7 +7,7 @@ export async function fetchRequest(props) {
       console.info(err);
       let message = err.statusText || "Occurió un error al acceder a la API";
       document.querySelector(".containerInfo").innerHTML = `<div class="error">
-      <p>Error ${err.status} : ${message} </p>
+      <blockquote>Error ${err.status} : ${message} </blockquote>
       </div>`;
     });
 }
