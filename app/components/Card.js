@@ -4,8 +4,8 @@ export function Card() {
 
   $card.innerHTML = `
      <div class="containerInfo">
-    <h1></h1>
-   <p></p>
+    <h1>#</h1>
+   <p>😞</p>
      </div>
    <img src="app/assets/pattern-divider-desktop.svg" class="pattern" alt="pattern-design">
       <span class="dice">
