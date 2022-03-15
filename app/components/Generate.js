@@ -1,6 +1,7 @@
 export function Generate(props) {
   const $generate = document.createElement("div");
   $generate.classList.add("containerInfo");
+  let { id, advice } = props.slip;
 
   if (props.message) {
     $generate.innerHTML = `
@@ -8,8 +9,8 @@ export function Generate(props) {
          `;
   } else {
     $generate.innerHTML = `
-       <h1>ADVICE #${props.slip.id}</h1>
-       <blockquote>"${props.slip.advice}"</blockquote>
+       <h1>ADVICE #${id}</h1>
+       <blockquote>"${advice}"</blockquote>
     `;
   }
 
